@@ -12,8 +12,9 @@ app.use(cors());
 
 app.use("/posts", postRoutes);
 
-const CONNECTION_URL =
-  "mongodb+srv://iyappan:aki861059@cluster0.y1y0ho9.mongodb.net/test";
+const CONNECTION_URL ="mongodb+srv://iyappan:@ki861059@cluster0.ofnnvmh.mongodb.net/test2";
+//"mongodb+srv://iyappan:aki861059@cluster0.y1y0ho9.mongodb.net/test";
+
 const PORT = process.env.PORT || 8000;
 
 mongoose
